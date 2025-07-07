@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Products - GameZone</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>All Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="product-grid">
+    <div class="product-card">
+      <img src="images/controller.jpg" alt="Controller">
+      <h3>Gaming Controller</h3>
+      <p>₹1999</p>
+      <button onclick="addToCart('Gaming Controller', 1999)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/headset.jpg" alt="Headset">
+      <h3>Gaming Headset</h3>
+      <p>₹2499</p>
+      <button onclick="addToCart('Gaming Headset', 2499)">Add to Cart</button>
+    </div>
+    <!-- Add more product cards similarly -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GameZone Accessories</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
